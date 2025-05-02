@@ -11,5 +11,8 @@ import com.example.myapp.data.local.entity.TodoEntity
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
+
     abstract fun todoDao(): TodoDao
+
+
 }
