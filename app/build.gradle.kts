@@ -102,4 +102,10 @@ dependencies {
 
     // --- Jackson Core (in case you need full manual control) ---
     implementation("com.fasterxml.jackson.core:jackson-databind:2.17.1")
+
+    // --- Constraint Layout Library Compose ---
+    implementation ("androidx.constraintlayout:constraintlayout-compose:1.1.1")
+
+    // NEXCOMPONENT
+    implementation("id.co.component:nexcomponentandroid:1.0.0-SNAPSHOT")
 }

@@ -16,6 +16,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            isAllowInsecureProtocol = true
+            url = uri("http://nexus.nexsoft.co.id:8081/repository/nexsoft-snapshots/")
+            credentials {
+                username = "nexsoft-sf"
+                password = "nexsoft013"
+            }
+        }
     }
 }
 
